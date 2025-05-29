@@ -9,7 +9,6 @@ def download_youtube_video(url, output_path='.'):
         print("下載完成！")
     except Exception as e:
         print(f"下載失敗: {e}")
-        return
 
 
 if __name__ == "__main__":
